@@ -2,6 +2,7 @@
 import './App.css';
 import ExpenseItem from './Components/ExpenseItem';
 
+
 function App() {
   const expenses = [
     {
