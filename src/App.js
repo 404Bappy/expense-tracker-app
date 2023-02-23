@@ -14,19 +14,19 @@ function App() {
       id: 'e2',
       title: "New TV",
       amount: 694.67,
-      date: new Date(2021, 2, 28)
+      date: new Date(2021, 0, 28)
     },
     {
       id: 'e3',
       title: "Car Insurense",
       amount: 294.67,
-      date: new Date(2021, 2, 28)
+      date: new Date(2021, 1, 28)
     },
     {
       id: 'e4',
       title: "New Dex (Wooden)",
       amount: 594.67,
-      date: new Date(2021, 2, 28)
+      date: new Date(2021, 4, 28)
     },
 
   ];
