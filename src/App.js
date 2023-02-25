@@ -9,7 +9,7 @@ function App() {
       id: 'e1',
       title: "Toilet Paper",
       amount: 94.67,
-      date: new Date(2021, 7, 28)
+      date: new Date(2021, 7, 22 )
     },
     {
       id: 'e2',
