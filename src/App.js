@@ -1,6 +1,6 @@
 
 import './App.css';
-import Expenses from './Components/Expenses';
+import Expenses from './Components/Expenses/Expenses';
 
 
 
@@ -10,7 +10,7 @@ function App() {
       id: 'e1',
       title: "Toilet Paper",
       amount: 94.67,
-      date: new Date(2021, 7, 22 )
+      date: new Date(2021, 7, 22)
     },
     {
       id: 'e2',
@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="App">
       <h1 className='title-app'>Expense Tracker</h1>
-            <Expenses item = {expenses} />
+      <Expenses item={expenses} />
     </div>
   );
 }
