@@ -5,8 +5,10 @@ import Card from '../UI/Card';
 
 const ExpenseItem = (props) => {
 
+    let title = props.title;
+
     const clickHandler = () => {
-        console.log('clicked');
+        title = 'Updated!!!';
     };
 
     return (
