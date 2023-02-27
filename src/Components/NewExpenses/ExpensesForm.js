@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './ExpensesForm.css';
 
-const ExpensesForm = () => {
+const ExpensesForm = (props) => {
     //UseState Section For all the value of the Change Handler //
     const [title, setTitle] = useState(' ');
     const [amount, setamount] = useState(' ');
@@ -30,7 +30,7 @@ const ExpensesForm = () => {
             amunt: amount,
             dt: new Date(date)
         };
-        console.log(expenseData);
+        props.onSaveExpenseData(expenseData);
         setTitle(' ');
         setamount(' ');
         setDate(' ');
