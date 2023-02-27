@@ -2,13 +2,16 @@ import React from 'react';
 import './ExpensesForm.css';
 
 const ExpensesForm = () => {
+    const clickHandler = () => {
+
+    }
     return (
         <div>
             <form action="">
                 <div className='new-expense__controls'>
                     <div className='new-expense__control'>
                         <label htmlFor="">Title</label>
-                        <input type="text" />
+                        <input type="text" onClick={clickHandler} />
                     </div>
                     <div className='new-expense__control'>
                         <label htmlFor="">Amount</label>
@@ -16,7 +19,7 @@ const ExpensesForm = () => {
                     </div>
                     <div className='new-expense__control'>
                         <label htmlFor="">Date</label>
-                        <input type="date" min="2019-01-01" max="2022-12-31"  />
+                        <input type="date" min="2019-01-01" max="2022-12-31" />
                     </div>
                 </div>
                 <div className='new-expense__actions'>
