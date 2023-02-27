@@ -32,7 +32,7 @@
 .title-app {
   border: 2px solid rebeccapurple;
   padding: 0.5rem;
-  font: bold;
+  font-weight: bold;
   background-color: yellowgreen;
   border-radius: 2px;
 }
