@@ -8,6 +8,7 @@ const ExpensesForm = () => {
     const [date, setDate] = useState(' ');
     //===============>>> ** <<<=========== */
 
+
     const titleChangeHandler = (event) => {
         setTitle(event.target.value);
     }
@@ -20,9 +21,13 @@ const ExpensesForm = () => {
     const dateChangeHandler = (event) => {
         setDate(event.target.value);
     }
+
+    const submeetHandler = () => {
+
+    }
     return (
         <div>
-            <form action="">
+            <form onSubmit={submeetHandler}>
                 <div className='new-expense__controls'>
                     <div className='new-expense__control'>
                         <label htmlFor="">Title</label>
