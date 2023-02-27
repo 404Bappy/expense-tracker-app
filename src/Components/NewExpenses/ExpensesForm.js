@@ -22,9 +22,17 @@ const ExpensesForm = () => {
         setDate(event.target.value);
     }
 
-    const submeetHandler = () => {
+    const submeetHandler = (event) => {
+        event.preventDefault();
 
+        const expenseData = {
+            titl: title,
+            amunt: amount,
+            dt: new Date(date)
+        };
+        console.log(expenseData);
     }
+
     return (
         <div>
             <form onSubmit={submeetHandler}>
