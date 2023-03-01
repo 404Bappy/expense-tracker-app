@@ -43,6 +43,7 @@ function App() {
       <h1 className='title-app'>Expense Tracker</h1>
       <NewExpenses onAddExpenses={addExpenseHandler} />
       <Expenses item={expenses} />
+      
     </div>
   );
 }
